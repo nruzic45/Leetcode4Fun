@@ -29,7 +29,13 @@ public:
 
 class Solution2 {
 public:
+    //STL sort function, sorts the string in ascending order
+    // if the strings are anagrams, they will be equal after sorting
+    // O(nlogn) time complexity
+    // O(1) space complexity
 
+    // sort function takes in two iterators, 
+    // the first and last element of the container to be sorted.
     void sortString(string &s){
         sort(s.begin(), s.end());
     }

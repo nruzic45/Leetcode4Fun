@@ -1,0 +1,11 @@
+Brute force O(n^2)
+
+One pass, going through the array, calculating a difference between 
+the current value and target, check if the compliment is contained in the
+hashmap. If not, add the number to the hashmap, if it is return the indices.
+
+O(n) time
+O(n) memory
+
+=--------------------
+Early terminattion? Egde Cases? None
