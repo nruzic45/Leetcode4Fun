@@ -3,3 +3,7 @@ The brute force approach is O(n*n), checking each input with each other input.
 The sort approach can be O(n*logn), with a two pointer check at the top of the list.
 
 The hash set approach uses O(n) time, but uses O(n) memory in tradeoff.
+
+-------
+Edge cases for early termination? -> None
+

@@ -1,0 +1,9 @@
+Counting the number of occurrences of each letter in a string
+in both strings, O(m + n), memory (m + n). 
+
+Sorting solution, quicksort O(nlogn), memory? depends, but it can be O(1).
+Sort the strings, then check if they are the same.
+
+-------
+Edge cases for early termination? -> lengths of strings
+
