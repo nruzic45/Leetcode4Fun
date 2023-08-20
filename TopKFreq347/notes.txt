@@ -1,0 +1,25 @@
+Make a hashmap with the keys being the values of the array(hashmap solves the unique count problem)
+and the values should be the frequencies.
+
+Then make a vector, which indicies correspond to frequencies and the contents correspond to
+a list of elements with those frequencies.
+
+Array indicies have a feature of being in ascending order, so
+Finding k top frequent values should be at the end of the array.
+
+Couldnt use a newe hasmap for this because its unordered, doesnt have the 
+ascending order indicies feature like an array.
+
+Looks like a quazi heap implementation, which it kinda is. As this problem
+can be effectively solved with a heap.
+
+---------------------
+
+ termination case/edge case -> check if the result size is bihher 
+ or equal to k. if yes, break the loop as the most frequent numbers have been found.
+ Its crutial to the solution, as we are required to return k top numbers.
+
+ O(n) time, its a one(three) pass solution
+ O(n) space, it requires one hashmap and array sized n in the worst case scenario.
+
+ 
