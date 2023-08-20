@@ -1,0 +1,9 @@
+Make a hashmap of this strucutre:
+<string coded number of chars> => <vector of strings with the same key>
+"1
+
+It optimizes based on the fixed ammount of possible letters in
+the english alphabet > 26. So the length of the key is always constant.
+
+O(nxl), n the length of the input list, l -> max length of the string
+O(nxl), memory required
