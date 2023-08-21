@@ -1,0 +1,7 @@
+Two pass throughs, one which calculates prefix values iterativly. Every ith spot in
+the array has to contain all the preveosly multiplied values of an array. For the suffix it is similar, put a pass
+from the end of the array to the begining. 
+
+
+time complexity O(n)
+memory O(1), its pretty much in place.
