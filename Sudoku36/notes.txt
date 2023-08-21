@@ -1,0 +1,11 @@
+Three Boolean matrices that contain 1 if the number of 1 to 9 is containted in:
+row
+column
+or an 3x3 area sudoku box.
+
+One case: Check if the corresponding number has an entry in the three of those matrices, good atribute
+of a sudoku game, values map well to indices, only a char to int conversion is done.
+
+----------------------------
+
+Early termination - if theres not a anumber continue.
