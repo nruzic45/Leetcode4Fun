@@ -1,0 +1,8 @@
+Strings are coded as:
+
+<length_word>#<word>. Strings are decoded with two pointers. One is a global pointer that is incrementing through the whole word.
+The other pointer incrmeents until it detects a # sign. Then the j-i gives us the length of the substring.  int(res[i,j-i]) is the length.
+The substring is res[j+1;length].
+
+O(n), time complexity
+O(1), memory complexity
