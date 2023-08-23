@@ -1,0 +1,9 @@
+Suboptimal solution, sort, and then iterate and check if the difference between elements is 1.
+
+Optimal solution, make a set, then iterate through each element of the set, and for each element(n), check if the n++ is in the set,
+if it is, iterate until you dont find an element in the set. Number of those iterations is the length of the biggest consequtive set
+
+Have to check if there is a number in the set that is smaller than n, becausee if there is, then n is not the start of a sequence. Optimization.
+
+Memory O(n)
+Space O(n)
