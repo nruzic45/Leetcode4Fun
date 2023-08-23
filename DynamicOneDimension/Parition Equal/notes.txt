@@ -1,0 +1,12 @@
+The idea is two find two subsets with equal sums. That means that if we divide the total sum of array with 2,
+(if the sum isnt divisible we return false), we obtain a target value of the subsets.
+
+Finding a subset can be done with iterating through the elements and checking for each nums[i] element if the
+sum of that element with the possible partial sum of the global set is equal to target. return true if yes, if not add the 
+new acquired partial sums to the global set and iterate until you have exsauted the whole array.
+
+Dynamic program is used with sets in this problem, as to not duplicate exsiting partial sums and for easer looking up
+the allready computed partial sum in some prevous nums[i] to partial sum set relation.
+
+O(n*sum(nums)) time
+O(sum(nums)) memory
